@@ -1,6 +1,12 @@
 @import"./icons.css";
+@import"./fonts.css";
+@import"./body.css";
+@import"./links.css";
+@import"./button-icon.css";
+
 
 :root {
+    font-size: 16px;
     --primary: #00B050;
     --white: #FFFFFF;
     --gray10:#B3B3B3 ;
@@ -9,9 +15,11 @@
     --gray40:#181818 ;
     --gray50:#121212;
     --gray60: #000000;
-
-}
-
-body {
-    background: var(--primary);
+    --basefontsFamily: Avenir, helvetica, sans-serif;
+    --headline1: bold 2rem/normal var(--basefontsFamily);
+    --headline2: bold 1.5rem/1.75rem/ var(--basefontsFamily);
+    --baseFont: normal .875rem/1.375rem/var(--basefontsFamily);
+    --baseFontBold: bold .875rem/1.375rem/var(--basefontsFamily);
+    --button: bold .875rem/1rem/ var(--basefontsFamily);
+    --small: normal .75em/1rem/normal var(--basefontsFamily);
 }
